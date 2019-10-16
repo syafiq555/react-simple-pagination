@@ -36,7 +36,7 @@ const PaginationComponent = () => {
                 onClick={() => {
                   if (activePage > 1) {
                     dispatch({
-                      type: INCREMENT_PAGE,
+                      type: DECREMENT_PAGE,
                     });
                     dispatch({
                       type: SET_CURRENT_DATA,
